@@ -33,18 +33,18 @@ Ensure you have the following installed:
 
 1. **Initial Setup :**
 
-\`\`\`bash
+```bash
 git clone https://github.com/yousbot/Done.git
 cd Done
 npm run setup
-\`\`\`
+```
 
 This will start the server as well. Once set up the first time, you can launch it through :
 
-\`\`\`bash
+```bash
 cd Done
 npm start
-\`\`\`
+```
 
 ### Usage
 
