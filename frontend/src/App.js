@@ -265,7 +265,7 @@ function App() {
   const handleClearAll = async () => {
     try {
       await axios.delete(`http://localhost:${serverPort}/todos`);
-      fetchTodos(); // Refresh the list after clearing all tasks
+      fetchTodos(); // Refreshing the list after clearing all tasks
     } catch (error) {
       console.error("Error clearing all todos:", error);
     }
