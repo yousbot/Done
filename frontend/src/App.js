@@ -279,7 +279,7 @@ function App() {
         {" "}
         <h1 className="text-3xl font-biro mb-6  text-gray-700">(v) Done</h1>
         <div className="controls flex pt-6 justify-between mb-4 items-center">
-          {/* Sort Dropdown */}
+          {/* Sorting Dropdown */}
           {/* <div className="relative dropdown">
             <button
               className="dropdown-toggle px-4 py-2 bg-gray-200 text-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
