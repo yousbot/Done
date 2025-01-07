@@ -9,7 +9,6 @@ const port = process.env.PORT || 5001;
 app.use(cors());
 app.use(express.json());
 
-// Connect to SQLite database
 const db = new sqlite3.Database("./todo.db", (err) => {
   if (err) {
     console.error(err.message);
